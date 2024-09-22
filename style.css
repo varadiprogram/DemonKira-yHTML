@@ -1,0 +1,72 @@
+.bg-img1 {
+    background-image: url("demon2.jpg");
+    min-height: 970px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.container1 {
+    position: fixed;
+    margin: 20px;
+    width: auto;
+}
+
+.topnav1 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.topnav1 a:hover {
+    transition: 85ms;
+    border-bottom: solid;
+}
+
+.demonkiraly {
+    color: white;
+    font-size: 16px;
+    border-style:
+        solid;
+    cursor: pointer
+}
+
+
+@media only screen and (max-width:600px) {
+    .bg-img1 {
+        min-height: 550px;
+    }
+
+    .demonkiraly {
+        font-size: 14px;
+    }
+
+    .topnav1 a {
+        font-size: 14px
+    }
+
+
+}
+
+
+
+.row {
+    text-align: center;
+}
+
+.col-sm {
+    margin-bottom: 5%;
+}
+
+.header1 {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    border-style: solid;
+    background-color: black;
+    border-color: black;
+    color: white;
+
+}
